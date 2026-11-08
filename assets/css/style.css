@@ -86,9 +86,3 @@ body {
         transform: translate(0px, 0px);
         box-shadow: none;
     }
-
-    @keyframes textFlicker {
-        0% { opacity: 0.98; text-shadow: 0 0 4px #00ff66; }
-        50% { opacity: 1; text-shadow: 0 0 6px #00ff66, 1px 1px 2px #ff0055; }
-        100% { opacity: 0.99; text-shadow: 0 0 4px #00ff66; }
-    }
